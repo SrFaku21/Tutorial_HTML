@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+    color: coral;
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
+figcaption {
+    max-width: 50px;
+    height: auto;
+}
+video {
+    width: 50%;
+}

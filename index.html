@@ -9,17 +9,36 @@
 </head>
 <body>
     <h1>Tutorial de html</h1><!--solo se hace uno por documento-->
-    <h2>encabezado de nivel 2</h2><!--h2 para subtitulos-->
+    <h2 id="Temario">Temario</h2>
+    <ul>
+        <li><a href="index.html#Encabezados">Tipos de encabezado</a></li>
+        <li><a href="index.html#Etiquetas de texto">Etiquetas de texto</a></li>
+        <li><a href="index.html#Etiquetas semanticas">Etiquetas semanticas</a></li>
+        <li><a href="index.html#Etiqueta de formateo">Etiquetas de formateo</a></li>
+        <li><a href="index.html#Etiquetas semanticas estructurales">Etiquetas semanticas estructurales</a></li>
+        <li><a href="index.html#Etiquetas de bloque VS Etiquetas de linea">Etiquetas de bloque VS Etiquetas de linea</a></li>
+        <li><a href="index.html#Imagenes">Imagenes</a></li>
+        <li><a href="index.html#Listas ordenadas">Listas ordenadas</a></li>
+        <li><a href="index.html#Listas desordenadas">Listas desordenadas</a></li>
+        <li><a href="index.html#Tablas">Tablas</a></li>
+        <li><a href="index.html#Enlaces">Enlaces</a></li>
+        <li><a href="index.html#"></a></li>
+        <li><a href="index.html#"></a></li>
+        <li><a href="index.html#"></a></li>
+        <li><a href="index.html#"></a></li>
+    </ul>
+    <h2 id="Encabezados">encabezado de nivel 2</h2><!--h2 para subtitulos-->
     <h3>encabezado de nivel 3</h3>
     <h4>encabezado de nivel 4</h4>
     <h5>encabezado de nivel 5</h5>
     <h6>encabezado de nivel 6</h6>
     <hr>
+    <h2 id="Etiquetas de texto">Etiquetas de texto</h2>
     <p>
         Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>subrayado</u>, e=mc <sup>2</sup>, h <sub>2</sub>0, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small>
     </p>
     <hr>
-    <h2>Etiquetas de texto semanticas</h2>
+    <h2 id="Etiquetas semanticas">Etiquetas de texto semanticas</h2>
     <p>
         <strong>Este texto es importante</strong>
         <em>Este texto hace enfasis</em>
@@ -31,9 +50,7 @@
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Minus eum inventore eaque, dolorem facere similique! <br> Veniam laborum molestiae nesciunt. <br>Minus porro quibusdam necessitatibus deleniti eos ducimus iste, <br><br>sapiente exercitationem eaque.
     </p>
     <hr>
-    <h2>
-        Etiqueta de formateo
-    </h2>
+    <h2 id="Etiqueta de formateo">Etiqueta de formateo</h2>
     <pre>
     <p>
         Tarea por hacer:
@@ -59,7 +76,7 @@
         </code>
     </pre>
     <hr>
-    <h2>Etiquetas semanticas estructurales</h2>
+    <h2 id="Etiquetas semanticas estructurales">Etiquetas semanticas estructurales</h2>
     <div style="background-color: blueviolet; color:aliceblue">DIV: Es una etiqueta contenedora que no tiene semanticas</div>
     <header style="background-color: blueviolet;">Header: cabecera de un sitio web o una seccion</header>
     <main style="background-color: blueviolet;">Main: define la seccion principal del docuemnto, solo se puede existir una por documento</main>
@@ -70,23 +87,133 @@
     <section style="background-color: blueviolet;"> Section: representa una seccion de contenido generico</section>
     <address style="background-color: blueviolet;">Address: representa una direccion ficticia</address>
     <hr>
-    <h2>
-        Etiquetas de bloque VS Etiquetas de linea
-    </h2>
+    <h2 id="Etiquetas de bloque VS Etiquetas de linea">Etiquetas de bloque VS Etiquetas de linea</h2>
     <div style="background-color: cadetblue;">La etiqueta de bloque por excelencia es la DIV</div>
     <span style="background-color: cornflowerblue;">La etiqueta de linea por exelencia es la Span</span>
     <pre><span>Hola, soy otra SPAN</span></pre>
     <hr>
-    <h2>Imagenes</h2>
+    <h2 id="Imagenes">Imagenes</h2>
     <img src="IMG/icons8-python-48.png" alt="python">
     <img src="IMG/icons8-html5.svg" alt="html5">
     <hr>
-    <h2>Figuras</h2>
+    <h2 id="Figuras">Figuras</h2>
     <figure>
         <img src="img/icons8-teléfono-celular-100.png" alt="telefono">
         <figcaption>telefono</figcaption>
     </figure>
-
-    <script src="js/app.js"></script>
-</body>
+    <hr>
+    <h2 id="Listas ordenadas">Listas ordenadas</h2>
+    <h3>Estaciones del año</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol start="6">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="I">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="A">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="i">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <h2 id="Listas desordenadas">Listas desordenadas</h2>
+    <h3>Cosas por hacer</h3>
+    <ul>
+        <li>Enviar informe 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluaciones</li>
+        <li>Entregar trabajo final del curso</li>
+    </ul>
+    <ul type="square">
+        <li>Enviar informe 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluaciones</li>
+        <li>Entregar trabajo final del curso</li>
+    </ul>
+    <ul type="circle">
+        <li>Enviar informe 1° trimestre</li>
+        <li>Terminar PPT del modulo 3</li>
+        <li>Corregir evaluaciones</li>
+        <li>Entregar trabajo final del curso</li>
+    </ul>
+    <h2 id="Tablas">Tablas</h2>
+    <table>
+        <tr>
+            <th>PAIS</th>
+            <th>CAPITAL</th>
+            <th>CONTINENTE</th>
+        </tr>
+        <tr>
+            <td colspan="1">Japon</td>
+            <td colspan="2">Tokio</td>
+            <td>Asia</td>
+        </tr>
+        <tr>
+            <td>Francia</td>
+            <td>Paris</td>
+            <td>Europa</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>Ottawa</td>
+            <td>America</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="Enlaces">Enlaces</h2>
+    <a href="new.html">Ir al nuevo enlace</a>
+    <br>
+    <a href="https://youtu.be/9ZJ-K-zk_Go?si=2PD7YVEIForly6zC" target="_blank" rel="nofollow">Youtube Dalto</a>
+    <h2 id="Imagenes con link">Imagen con link</h2>
+    <a href="https://web.whatsapp.com/" target="_blank"><img src="IMG/icons8-whatsapp-48.png"alt="Esta imagen abre whatsapp" width="50" height="50"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="IMG/icons8-youtube-480.png" alt="Esta imagen abre youtube" width="50" height="50"></a>
+    <h2 id="Enlaces especiales">Enlaces especiales</h2>
+    <a href="mailto:facucabvil@gmail.com">Enlace a correo electronico</a>
+    <br>
+    <br>
+    <h2 id="Telefono">Telefono</h2>
+    <a href="tel:+543834593635">Telefono faku</a>
+    <h2 id="Whatsapp">Whatsapp</h2>
+    <a href="https://wa.me/+543834593635">Whatsapp</a>
+    <h2 id="Elementos interactivos">Elementos interactivos</h2>
+    <button onclick="alert('hiciste clic en el boton')">Este es un boton</button>
+    <details>
+        <summary> Titulo del acordeon</summary>
+        <article>
+            <h3>Contenido del acordeon</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, harum? Minima illo mollitia accusamus ipsum voluptate et consequuntur voluptas, non officia praesentium repellendus id cum, debitis modi perspiciatis ab aut!</p>
+        </article>
+    </details>
+    <h2 id="Audio-video">Audio-video</h2>
+    <audio src="audio/y2mate.com - Musica Electronica LIBRE DE COPYRIGHT 3 Musica LIBRE DE DERECHOS .mp3" controls preload="auto"></audio><br>
+    <video src="video/y2mate.com - FPV Drone Flight through Beautiful Iceland Canyon_1080p.mp4" controls preload="auto" poster="img/videoframe_13059.png"></video><br>
+    
+    <br>
+    <br>
+    <li><a href="index.html#Temario">Volver al temario</a></li>
+</body> 
 </html>
