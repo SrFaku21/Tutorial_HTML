@@ -1,2 +1,1 @@
-console.log("Hola, estamos aprendiendo HTML")
-alert("Hola mundo")
+console.log("Hola, aprendiendo a invocar codigo JS desde HTML")
