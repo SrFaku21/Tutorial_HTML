@@ -6,6 +6,9 @@
     <meta name="description" content="En esta pagina estamos apendiendo HTML con el profe marcos">
     <title>Repasando HTML</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="canonical" href="">
+    <link rel="icon" href="IMG/icons8-html5-240.png">
+    <link rel="apple-touch-icon" href="IMG/icons8-html5-240.png ">
 </head>
 <body>
     <h1>Tutorial de html</h1><!--solo se hace uno por documento-->
@@ -307,9 +310,16 @@
         <input type="submit">
         <input type="reset">
     </form>
+    <h4>Formulario de contacto</h4>
+    <form action="https://formsubmit.co/facucabrevil@gmail.com" method="POST"">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíóóÚúÜü\s]+$" title="El nombre solo acepta letras y espacios en blanco" required><br>
+        <input type="text" name="correo" placeholder="Escribe tu correo" pattern="“^(\W+[/./-]?){1,}@[az]+[/.]\W{2,}$”" title="Formato de correo invalido" required><br>
+        <textarea name="comentarios" cols="30" rows="10"required></textarea><br>
+        <input type="submit">
+    </form>
     <br>
     <br>
-    <script src="JS/app.js"></script>
+    <script src="JS/app.js"></script>    
     <li><a href="index.html#Temario">Volver al temario</a></li>
 </body> 
 </html>
