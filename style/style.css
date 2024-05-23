@@ -1,8 +1,42 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color: rgb(249, 236, 217);
+}
+h1 {
+    color: whitesmoke; 
+    font: size 40px;
+    text-shadow: 2px 2px 0px #000000
+}
 h2 {
     color: coral;
+}
+h3 {
+    background-color: #7469B6;
+    padding: 100px 50px;
+    border-radius: 8%;
+}
+#Encabezados {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+.tamaño-letra {
+    color: chocolate;
+    font-size: 20px;
+}
+.fondo {
+    background-color: rgb(0, 0, 0);
+}
+.colores {
+    color: tomato;
+}
+.coloresHexa {
+    color: #ffd1d1
+}
+p {
+    color: black;
+    font-size: 20px;
 }
 img {
     max-width: 50%;
