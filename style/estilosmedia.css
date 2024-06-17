@@ -1,0 +1,36 @@
+@media screen and (min-width: 480px){
+    body {
+        background-color:rgb(2, 122, 84);
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: aqua;
+    }
+}
+@media screen and (min-width: 768px) {
+    .estilo {
+        background-color: rgb(1, 127, 144);
+    }
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+@media screen and (min-width: 992px) {
+    h2 {
+        text-align: left;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 20px;    
+        color: #fa0202;
+    }    
+}
+@media (min-width: 400px) and (max-width: 768px) {
+    h2 {
+        background-color: beige;
+    }
+}
